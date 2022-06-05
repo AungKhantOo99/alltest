@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="250dp"
+    android:layout_marginStart="20dp"
+    android:id="@+id/play">
+<!--    android:background="@drawable/companybg"-->
+<!--    android:elevation="15dp"-->
+        <TextView
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:ellipsize="marquee"
+            android:text="Name"
+            android:id="@+id/title"/>
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="artist"
+            android:layout_marginStart="20dp"
+            android:id="@+id/artist"/>
+    </LinearLayout>
